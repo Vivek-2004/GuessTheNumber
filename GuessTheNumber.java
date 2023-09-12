@@ -24,12 +24,12 @@ public class GuessTheNumber
             if(guess>ran)
             {
                 System.out.println("Wrong Guess...");
-                System.out.println("[HINT] Enter a Smaller Number : ");
+                System.out.println("[HINT] Enter a SMALLER Number : ");
             }
             else if(guess<ran)
             {
                 System.out.println("Wrong Guess...");
-                System.out.println("[HINT] Enter a Greater Number : ");
+                System.out.println("[HINT] Enter a GREATER Number : ");
             } 
             tries+=1;
         }
